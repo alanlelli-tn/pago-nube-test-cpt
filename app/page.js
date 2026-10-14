@@ -73,7 +73,7 @@ export default function Page() {
           </div>
 
           <h2>Uplift vs. Control</h2>
-          <p className="sub">Comparación sobre la base completa de cada grupo (impactados o no), la única manera de comparar contra Control.</p>
+          <p className="sub">Comparación sobre la base completa de cada grupo (impactados o no).</p>
           <div className="card scroll">
             <table>
               <thead><tr>{UPLIFT.head.map((h) => <th key={h}>{h}</th>)}</tr></thead>
